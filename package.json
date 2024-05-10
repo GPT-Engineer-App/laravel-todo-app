@@ -9,7 +9,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "dummy": "echo 'This is a dummy script'",
-    "postinstall": "echo 'Regenerate package-lock.json'"
+    "postinstall": "echo 'Regenerate package-lock.json'",
+    "prepare": "echo 'Generate package-lock.json'"
   },
   "dependencies": {
     "react": "^18.2.0",
